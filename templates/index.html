@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Predicción de Texto</title>  
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>  
+<body>  
+    <video autoplay loop muted style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">  
+        <source src="/static/img/videofondo.mp4" type="video/mp4">  
+        Tu navegador no soporta el video.  
+    </video>
+    <div class="container">  
+        <h1>Predicción de Textos</h1>  
+        <textarea id="inputText" placeholder="Escribe tu texto aquí..."></textarea>  
+        <button class="button" id="predictButton">Predecir</button>
+
+        <div class="predictions">  
+            <h2>Resultados de Predicción</h2>  
+            <ul id="predictionsList"></ul>  
+        </div>  
+    </div>  
+    <script src="/static/js/script.js"></script>
+</body>  
+</html>
